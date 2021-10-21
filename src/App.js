@@ -9,6 +9,8 @@ import {
   Link
 } from "react-router-dom";
 import Home from './Components/Home/Home';
+import Registration from './Components/Registration/Registration';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -26,11 +28,16 @@ function App() {
           <Route path="/credits">
             <Credits/>
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home/>
-          </Route>
+            </Route>
+            <Route path="/register">
+              <Registration/>
+            </Route>
+            
         </Switch>
-      </div>
+        </div>
+        <Footer/>
     </Router>
     </div>
   );

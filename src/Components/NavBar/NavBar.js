@@ -6,13 +6,13 @@ const NavBar = () => {
     <nav className="flex px-10 py-5 bg-gray-800 justify-between">
       <div className="flex">
         <img src={logo} alt="Logo" className="w-16" />
-        <h1 className="self-center text-white text-3xl hover:text-yellow-400">
+        <h1 className="self-center text-white  text-xl md:text-3xl hover:text-yellow-400">
           <NavLink exact to="/">
             Game It Out
           </NavLink>
         </h1>
       </div>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         <NavLink
           exact
           to="/"
@@ -20,7 +20,7 @@ const NavBar = () => {
             fontWeight: "bold",
             color: "orangered",
           }}
-         className="text-3xl text-white hover:text-red-500 px-3 self-center"
+         className=" text-xl md:text-3xl text-white hover:text-red-500 px-3 self-center"
         >
           Home
         </NavLink>
@@ -30,7 +30,7 @@ const NavBar = () => {
             fontWeight: "bold",
             color: "orangered",
           }}
-          className="text-3xl text-white hover:text-red-500 px-3 self-center"
+          className="text-xl md:text-3xl text-white hover:text-red-500 px-3 self-center"
         >
           About Us
         </NavLink>
@@ -40,7 +40,7 @@ const NavBar = () => {
             fontWeight: "bold",
             color: "orangered",
           }}
-          className="text-3xl text-white hover:text-red-500 px-3 self-center"
+          className="text-xl md:text-3xl text-white hover:text-red-500 px-3 self-center"
         >
           Credits
         </NavLink>
@@ -50,7 +50,7 @@ const NavBar = () => {
             fontWeight: "bold",
             color: "orangered",
           }}
-          className="text-3xl text-white hover:text-red-500 px-3 self-center"
+          className="text-xl md:text-3xl text-white hover:text-red-500 px-3 self-center"
         >
           Register
         </NavLink>
