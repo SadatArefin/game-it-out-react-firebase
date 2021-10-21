@@ -44,9 +44,6 @@ function App() {
               <Route path="/registration">
                 <Registration />
               </Route>
-              <Route path="*">
-                <NotFound/>
-              </Route>
               {/* Games */}
               <PrivateRoute path="/snake">
                 <Snake />
@@ -84,6 +81,9 @@ function App() {
               <PrivateRoute path="/tetris">
                 <Tetris/>
               </PrivateRoute>
+              <Route path="*">
+                <NotFound/>
+              </Route>
             </Switch>
           </div>
           <Footer />

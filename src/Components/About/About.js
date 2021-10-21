@@ -11,7 +11,7 @@ const About = () => {
           <img
             src={Yeasin}
             alt="Yeasin Hossain"
-            className="w-64 rounded-full bg-white mb-5"
+            className="w-64 rounded-full bg-white mb-5 mx-auto"
           />
           <h3 className="text-2xl">Md. Yeasin Hossain</h3>
           <p className="text-xl">
@@ -22,7 +22,7 @@ const About = () => {
           <img
             src={Rafat}
             alt="Sadat Arefin Rafat"
-            className="w-64 rounded-full bg-white mb-5"
+            className="w-64 rounded-full bg-white mb-5 mx-auto"
           />
           <h3 className="text-2xl">Sadat Arefin Rafat</h3>
           <p className="text-xl">
@@ -33,7 +33,7 @@ const About = () => {
           <img
             src={Ezaz}
             alt="Md Nakibul Ezaz"
-            className="w-100 rounded-full bg-white"
+            className="w-64 rounded-full bg-white mb-5 mx-auto"
           />
           <h3 className="text-2xl">MD Nakibul Ezaz</h3>
           <p className="text-xl">

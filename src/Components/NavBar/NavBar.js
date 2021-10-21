@@ -6,7 +6,7 @@ const NavBar = () => {
   const { user, logout } = useAuth();
   return (
     <nav className="flex px-10 py-5 bg-gray-800 justify-between">
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         <img src={logo} alt="Logo" className="w-16" />
         <h1 className="self-center text-white  text-xl md:text-3xl hover:text-yellow-400">
           <NavLink exact to="/">
