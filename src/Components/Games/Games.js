@@ -10,7 +10,8 @@ import arkanoidImage from "../../Images/arkanoid.jpg";
 import pingPongImage from "../../Images/ping-pong.jpg";
 import pacmanImage from "../../Images/pacman.webp";
 import marioImage from "../../Images/mario.png";
-import image2048 from "../../Images/2048.png"
+import image2048 from "../../Images/2048.png";
+import tetrisImage from "../../Images/tetris.jpg";
 import "./Games.css";
 const Games = () => {
   return (
@@ -139,6 +140,15 @@ const Games = () => {
           <img src={image2048} alt="2048" className="w-full game-image" />
           <h3 className="py-5 text-3xl text-white game-caption bg-blue-900">
             2048
+          </h3>
+        </div>
+      </NavLink>
+      {/* Tetris */}
+      <NavLink to="/tetris" className="game-card overflow-hidden">
+        <div className="border-2 border-red-500">
+          <img src={tetrisImage} alt="tetris" className="w-full game-image" />
+          <h3 className="py-5 text-3xl text-white game-caption bg-blue-900">
+            Tetris
           </h3>
         </div>
       </NavLink>
