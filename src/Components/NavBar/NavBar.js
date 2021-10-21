@@ -20,7 +20,7 @@ const NavBar = () => {
             fontWeight: "bold",
             color: "orangered",
           }}
-         className=" text-xl md:text-3xl text-white hover:text-red-500 px-3 self-center"
+          className=" text-xl md:text-3xl text-white hover:text-red-500 px-3 self-center"
         >
           Home
         </NavLink>
@@ -32,7 +32,7 @@ const NavBar = () => {
           }}
           className="text-xl md:text-3xl text-white hover:text-red-500 px-3 self-center"
         >
-          About Us
+          About
         </NavLink>
         <NavLink
           to="credits"
@@ -45,14 +45,14 @@ const NavBar = () => {
           Credits
         </NavLink>
         <NavLink
-          to="register"
+          to="registration"
           activeStyle={{
             fontWeight: "bold",
             color: "orangered",
           }}
           className="text-xl md:text-3xl text-white hover:text-red-500 px-3 self-center"
         >
-          Register
+          Registration
         </NavLink>
       </div>
     </nav>
