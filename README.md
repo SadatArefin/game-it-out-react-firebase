@@ -17,7 +17,7 @@ Our Current Games are:
 
 - Snake Game
 - Space Invaders
-- Offline Dino Game
+- Dino Game
 - Futuristic Racing
 - Flappy Bird
 - Type Master
@@ -27,8 +27,5 @@ Our Current Games are:
 - Mario
 - 2048
 - Tetris
-- Tower Defender
-- Car Simulator
-- Quiz Game
 
 More games will be added later on. Games are collected from Open Source Github Project under fair usage.
