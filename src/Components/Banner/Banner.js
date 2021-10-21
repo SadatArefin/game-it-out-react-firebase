@@ -1,11 +1,15 @@
-import React from 'react';
-
+import React from "react";
+import BannerImage from "../../Images/banner.jpg";
 const Banner = () => {
-    return (
-        <div>
-            <img src="" alt="Banner" />
-        </div>
-    );
+  return (
+    <div>
+      <img
+        src={BannerImage}
+        alt="Banner"
+        className="hover:scale-105 border-yellow-700 border-8 my-3 transform overflow-hidden w-3/4 mx-auto"
+      />
+    </div>
+  );
 };
 
 export default Banner;
