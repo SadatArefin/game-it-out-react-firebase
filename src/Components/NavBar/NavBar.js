@@ -1,7 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../Images/logo.svg";
+import useAuth from "../../hooks/useAuth";
 const NavBar = () => {
+  const { user, logout } = useAuth();
   return (
     <nav className="flex px-10 py-5 bg-gray-800 justify-between">
       <div className="flex">
@@ -44,6 +46,7 @@ const NavBar = () => {
         >
           Credits
         </NavLink>
+        
         <NavLink
           to="registration"
           activeStyle={{
@@ -54,6 +57,14 @@ const NavBar = () => {
         >
           Registration
         </NavLink>
+        {user?.email && (
+          <button
+            onClick={logout}
+            className="text-xl md:text-3xl text-white hover:text-red-500 px-3 self-center"
+          >
+            log out
+          </button>
+        )}
       </div>
     </nav>
   );

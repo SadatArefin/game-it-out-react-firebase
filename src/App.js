@@ -2,13 +2,14 @@ import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import About from "./Components/About/About";
 import Credits from "./Components/Credits/Credits";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Registration from "./Components/Registration/Registration";
 import Footer from "./Components/Footer/Footer";
 import AuthProvider from "./context/AuthProvider";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import Games from "./Components/Games/Games";
+import Snake from './Components/Snake/Snake';
 function App() {
   return (
     <div className="App bg-gray-700">
@@ -33,7 +34,7 @@ function App() {
                 <Registration />
               </Route>
               <PrivateRoute path="/snake">
-                <Games/>
+                <Snake/>
               </PrivateRoute>
             </Switch>
           </div>
