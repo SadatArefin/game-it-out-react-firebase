@@ -18,6 +18,7 @@ import Arkanoid from './Components/Arkanoid/Arkanoid';
 import PingPong from './Components/PingPong/PingPong';
 import Pacman from './Components/Pacman/Pacman';
 import Mario from './Components/Mario/Mario';
+import G2048 from './Components/G2048/G2048';
 function App() {
   return (
     <div className="App bg-gray-700">
@@ -71,6 +72,9 @@ function App() {
               </PrivateRoute>
               <PrivateRoute path="/mario">
                 <Mario/>
+              </PrivateRoute>
+              <PrivateRoute path="/2048">
+                <G2048/>
               </PrivateRoute>
             </Switch>
           </div>
