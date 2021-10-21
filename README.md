@@ -2,7 +2,7 @@
 
 ## 5th Semester Web Programming Project: CSE 4540
 
-Live Site Link: https://game-it-out.netlify.app/index.html
+Live Site Link: https://just-game-it-out.netlify.app/index.html
 
 This is a project for a **Gaming Website** where various casual browser games can be played with having to Log In.
 
